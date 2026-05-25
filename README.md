@@ -44,3 +44,32 @@ See:
 - `spec/README.md`
 - `SPEC.md`
 - `spec/TECHNICAL_PROFILE.md`
+
+## Current status
+
+- Layer 2 exists as normalized task packs under `task-packs/`.
+- The full current `Prompt-Vault` corpus has been imported.
+- The assent block has an initial baseline task.
+- Layer 3 exists as a runner skeleton with task-pack discovery and native adapter stubs.
+
+## Useful commands
+
+Import Prompt-Vault:
+
+```bash
+python3 tools/import_prompt_vault.py \
+  --source-root /path/to/Prompt-Vault \
+  --target-root task-packs/prompt-vault
+```
+
+List task packs:
+
+```bash
+python3 runner/cli.py list-task-packs
+```
+
+List adapter ids:
+
+```bash
+python3 runner/cli.py list-adapters
+```

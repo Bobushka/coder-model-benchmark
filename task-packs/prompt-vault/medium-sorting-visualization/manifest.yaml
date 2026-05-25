@@ -1,0 +1,26 @@
+{
+  "id": "prompt-vault.medium-sorting-visualization",
+  "title": "Real-time visualization of sorting",
+  "source_family": "prompt-vault",
+  "source_ref": "Medium/Sorting_Visualization.md",
+  "task_type": "visualizer",
+  "difficulty": "medium",
+  "review_mode": "human_primary",
+  "time_limit_sec": 1800,
+  "submission_contract": {
+    "kind": "single_file",
+    "paths": [
+      "index.html"
+    ],
+    "notes": "Leave the required artifact in the workspace root unless the task says otherwise."
+  },
+  "requires_browser": true,
+  "requires_build": false,
+  "machine_checks": [],
+  "human_axes": [
+    "works",
+    "looks_good",
+    "feels_finished",
+    "taste"
+  ]
+}

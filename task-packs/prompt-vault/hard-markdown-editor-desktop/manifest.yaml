@@ -1,0 +1,26 @@
+{
+  "id": "prompt-vault.hard-markdown-editor-desktop",
+  "title": "Markdown Editor - Tauri 2 Desktop App",
+  "source_family": "prompt-vault",
+  "source_ref": "Hard/Markdown_Editor_Desktop.md",
+  "task_type": "multi_file_feature",
+  "difficulty": "hard",
+  "review_mode": "mixed",
+  "time_limit_sec": 3600,
+  "submission_contract": {
+    "kind": "project_dir",
+    "paths": [
+      "."
+    ],
+    "notes": "Leave the required artifact in the workspace root unless the task says otherwise."
+  },
+  "requires_browser": false,
+  "requires_build": true,
+  "machine_checks": [],
+  "human_axes": [
+    "works",
+    "feels_finished",
+    "clarity",
+    "spec_following"
+  ]
+}

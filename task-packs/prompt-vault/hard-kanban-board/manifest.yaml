@@ -1,0 +1,26 @@
+{
+  "id": "prompt-vault.hard-kanban-board",
+  "title": "Kanban Board with Drag & Drop",
+  "source_family": "prompt-vault",
+  "source_ref": "Hard/Kanban_Board.md",
+  "task_type": "interactive_tool",
+  "difficulty": "hard",
+  "review_mode": "human_primary",
+  "time_limit_sec": 2700,
+  "submission_contract": {
+    "kind": "single_file",
+    "paths": [
+      "index.html"
+    ],
+    "notes": "Leave the required artifact in the workspace root unless the task says otherwise."
+  },
+  "requires_browser": true,
+  "requires_build": false,
+  "machine_checks": [],
+  "human_axes": [
+    "works",
+    "feels_finished",
+    "taste",
+    "spec_following"
+  ]
+}

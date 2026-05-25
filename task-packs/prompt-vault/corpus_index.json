@@ -1,0 +1,44 @@
+[
+  {
+    "id": "prompt-vault.easy-bubble-sort-visualizer",
+    "title": "Basic Sorting Visualizer (Bubble Sort)",
+    "source_ref": "Easy/Bubble_Sort_Visualizer.md",
+    "task_type": "visualizer",
+    "review_mode": "human_primary"
+  },
+  {
+    "id": "prompt-vault.easy-todo-list",
+    "title": "ToDo List",
+    "source_ref": "Easy/ToDo_List.md",
+    "task_type": "small_app",
+    "review_mode": "human_primary"
+  },
+  {
+    "id": "prompt-vault.medium-sorting-visualization",
+    "title": "Real-time visualization of sorting",
+    "source_ref": "Medium/Sorting_Visualization.md",
+    "task_type": "visualizer",
+    "review_mode": "human_primary"
+  },
+  {
+    "id": "prompt-vault.hard-kanban-board",
+    "title": "Kanban Board with Drag & Drop",
+    "source_ref": "Hard/Kanban_Board.md",
+    "task_type": "interactive_tool",
+    "review_mode": "human_primary"
+  },
+  {
+    "id": "prompt-vault.hard-markdown-editor-desktop",
+    "title": "Markdown Editor - Tauri 2 Desktop App",
+    "source_ref": "Hard/Markdown_Editor_Desktop.md",
+    "task_type": "multi_file_feature",
+    "review_mode": "mixed"
+  },
+  {
+    "id": "prompt-vault.advanced-llm-speedometer",
+    "title": "LLM Speedometer: Local LLM Performance Benchmarking Tool",
+    "source_ref": "Advanced/LLM_Speedometer.md",
+    "task_type": "multi_file_feature",
+    "review_mode": "mixed"
+  }
+]

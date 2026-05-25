@@ -1,0 +1,19 @@
+{
+  "id": "assent.bullshit-benchmark-baseline",
+  "title": "Assent Check: Reject Nonsense",
+  "source_family": "assent",
+  "source_ref": "obsidian/mems/bullshit-benchmark-note",
+  "task_type": "assent_check",
+  "difficulty": "assent",
+  "review_mode": "human_only",
+  "time_limit_sec": 900,
+  "submission_contract": {
+    "kind": "single_file",
+    "paths": ["responses.md"],
+    "notes": "Write one markdown file with answers to all prompts."
+  },
+  "requires_browser": false,
+  "requires_build": false,
+  "machine_checks": [],
+  "human_axes": ["non_agreement", "clarity", "restraint"]
+}
