@@ -16,4 +16,4 @@ Files:
 - `RULES.md` — non-negotiable comparison rules.
 - `REPO_LAYOUT.md` — folder responsibilities.
 - `HUMAN_REVIEW.md` — how manual scoring works.
-
+- `TECHNICAL_PROFILE.md` — required capability check before content tasks.

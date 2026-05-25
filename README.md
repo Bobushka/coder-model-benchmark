@@ -26,6 +26,11 @@ The benchmark compares the practical coding experience of:
 - A separate required block tests agreement / sycophancy resistance.
 - Final ranking is primarily human and subjective, not formula-first.
 
+## Direct sources
+
+- `Prompt-Vault` corpus: <https://github.com/w512/Prompt-Vault/tree/master>
+- `Bullshit Benchmark`: <https://petergpt.github.io/bullshit-benchmark/viewer/index.html>
+
 ## Repository layout
 
 - `spec/` — first-layer documents: scope, rules, layout, scoring frame.
@@ -38,4 +43,4 @@ See:
 
 - `spec/README.md`
 - `SPEC.md`
-
+- `spec/TECHNICAL_PROFILE.md`
