@@ -1,0 +1,19 @@
+models:
+  - id: codex/gpt-5.4-mini
+    adapter: codex
+    harness: codex
+    provider_type: native
+    local: false
+
+  - id: claude/sonnet
+    adapter: claude-code
+    harness: claude-code
+    provider_type: native
+    local: false
+
+  - id: opencode/qwen-local
+    adapter: opencode
+    harness: opencode
+    provider_type: ollama
+    local: true
+
