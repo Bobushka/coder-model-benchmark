@@ -3,11 +3,11 @@
 from __future__ import annotations
 
 from runner.adapters.base import HarnessAdapter
+from runner.adapters.opencode import OpenCodeAdapter
 from runner.adapters.stubs import (
     ClaudeCodeAdapter,
     CodexAdapter,
     GPTNativeAdapter,
-    OpenCodeAdapter,
 )
 
 

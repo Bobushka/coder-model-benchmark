@@ -26,6 +26,7 @@ class TaskPack:
     source_family: str
     source_ref: str
     task_type: str
+    difficulty: str | None
     review_mode: str
     time_limit_sec: int
     submission: SubmissionContract
@@ -55,6 +56,7 @@ def load_task_pack(pack_dir: str | Path) -> TaskPack:
         source_family=data["source_family"],
         source_ref=data["source_ref"],
         task_type=data["task_type"],
+        difficulty=data.get("difficulty"),
         review_mode=data["review_mode"],
         time_limit_sec=int(data["time_limit_sec"]),
         submission=submission,

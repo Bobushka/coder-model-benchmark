@@ -34,6 +34,15 @@ class TechnicalProfile:
     subagents: bool | None = None
     resume_session: bool | None = None
     permissions_model: str | None = None
+    audio_input: bool | None = None
+    video_input: bool | None = None
+    pdf_native_view: bool | None = None
+    local_shell: bool | None = None
+    network_access: bool | None = None
+    custom_skills_or_plugins: bool | None = None
+    citation_support: bool | None = None
+    quantization_level: str | None = None
+    parameter_size: str | None = None
     notes: list[str] = field(default_factory=list)
 
 
@@ -52,6 +61,9 @@ class RunArtifact:
     screens_dir: str | None = None
     submission_present: bool | None = None
     technical_profile_path: str | None = None
+    duration_sec: float | None = None
+    first_output_sec: float | None = None
+    returncode: int | None = None
     notes: list[str] = field(default_factory=list)
 
 
